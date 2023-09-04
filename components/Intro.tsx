@@ -4,7 +4,7 @@ import Image from "next/image"
 import {motion} from "framer-motion"
 function Intro() {
   return (
-    <section>
+    <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
         <div className='flex items-center justify-center'>
             <div className='relative'>
                 <motion.div 
