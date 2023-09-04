@@ -39,10 +39,12 @@ function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
+        <p className='mb-10 mt-4 px-4 text-2xl font-medium leading-[1.5] sm:text-4xl'>
         <span className="font-bold">Hello, I'm Ahmed Mohamed.</span> I'm a{" "}
         <span className="font-bold">a junior full-stack developer</span> I enjoy
         building <span className="italic">sites</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
+        </p>
       </motion.h1>
     </section>
   )
