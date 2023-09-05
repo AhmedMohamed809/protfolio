@@ -2,6 +2,8 @@
 import React from 'react'
 import Image from "next/image"
 import {motion} from "framer-motion"
+import Link from 'next/link';
+import {BsArrowRight} from "react-icons/bs";
 function Intro() {
   return (
     <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
@@ -49,6 +51,9 @@ function Intro() {
         <span className="underline">React (Next.js)</span>.
         </motion.p>
       </motion.h1>
+      <div>
+        <Link href="#contact" className='bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full' > Contact me here <BsArrowRight/></Link>
+      </div>
     </section>
   )
 }
