@@ -3,7 +3,7 @@ import React from 'react'
 import Image from "next/image"
 import {motion} from "framer-motion"
 import Link from 'next/link';
-import {BsArrowRight} from "react-icons/bs";
+import {BsArrowRight, BsLinkedin} from "react-icons/bs";
 import {HiDownload} from "react-icons/hi";
 function Intro() {
   return (
@@ -55,6 +55,7 @@ function Intro() {
       <div>
         <Link href="#contact" className='bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full' > Contact me here <BsArrowRight/></Link>
         <a href="#" className='bg-white   px-7 py-3 flex items-center gap-2 rounded-full'>Download CV <HiDownload/></a>
+        <a href="" className='bg-white   p-4 text-gray-700 flex items-center gap-2 rounded-full'> <BsLinkedin/></a>
       </div>
     </section>
   )
