@@ -3,8 +3,9 @@ import React from 'react'
 import Image from "next/image"
 import {motion} from "framer-motion"
 import Link from 'next/link';
-import {BsArrowRight, BsLinkedin} from "react-icons/bs";
+import {BsArrowRight, BsGithub, BsLinkedin} from "react-icons/bs";
 import {HiDownload} from "react-icons/hi";
+import { FaGitSquare, FaGithubSquare } from 'react-icons/fa';
 function Intro() {
   return (
     <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
@@ -55,7 +56,9 @@ function Intro() {
       <div>
         <Link href="#contact" className='bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full' > Contact me here <BsArrowRight/></Link>
         <a href="#" className='bg-white   px-7 py-3 flex items-center gap-2 rounded-full'>Download CV <HiDownload/></a>
-        <a href="" className='bg-white   p-4 text-gray-700 flex items-center gap-2 rounded-full'> <BsLinkedin/></a>
+        <a href="#" className='bg-white   p-4 text-gray-700 flex items-center gap-2 rounded-full'> <BsLinkedin/></a>
+        <a href="#" className='bg-white   p-4 text-gray-700 flex text-[1.35rem] items-center gap-2 rounded-full'> <FaGithubSquare/></a>
+
       </div>
     </section>
   )
