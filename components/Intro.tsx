@@ -61,8 +61,10 @@ function Intro() {
           delay:0.1,
         }
       }>
-        <Link href="#contact" className='bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition' > Contact me here <BsArrowRight/></Link>
-        <a href="#" className='bg-white   px-7 py-3 flex items-center gap-2 rounded-full'>Download CV <HiDownload/></a>
+        <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition
+        
+        ' > Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/></Link>
+        <a href="#" className='group bg-white   px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer'>Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/></a>
         <a href="#" className='bg-white   p-4 text-gray-700 flex items-center gap-2 rounded-full'> <BsLinkedin/></a>
         <a href="#" className='bg-white   p-4 text-gray-700 flex text-[1.35rem] items-center gap-2 rounded-full'> <FaGithubSquare/></a>
 
