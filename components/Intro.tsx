@@ -5,7 +5,7 @@ import {delay, motion} from "framer-motion"
 import Link from 'next/link';
 import {BsArrowRight, BsGithub, BsLinkedin} from "react-icons/bs";
 import {HiDownload} from "react-icons/hi";
-import { FaGitSquare, FaGithubSquare } from 'react-icons/fa';
+import { FaGithubSquare } from 'react-icons/fa';
 function Intro() {
   return (
     <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
