@@ -1,8 +1,11 @@
 import React from 'react'
+import SectionHeading from './SectionHeading'
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <section>
+        <SectionHeading>Projects</SectionHeading>
+    </section>
   )
 }
 
