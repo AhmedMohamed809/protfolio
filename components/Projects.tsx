@@ -4,7 +4,7 @@ import SectionHeading from './SectionHeading'
 function Projects() {
   return (
     <section>
-        <SectionHeading>Projects</SectionHeading>
+        <SectionHeading>My Projects</SectionHeading>
     </section>
   )
 }
