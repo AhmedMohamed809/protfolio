@@ -38,7 +38,7 @@ function Project({
                 '>{tag}</li>
             ))}
         </ul>
-        <Image src={imageUrl} alt={title} quality={95} />
+        <Image src={imageUrl} alt={title} quality={95} className=' absolute' />
 
 
     </section>
