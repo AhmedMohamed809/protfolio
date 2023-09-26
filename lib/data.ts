@@ -66,13 +66,15 @@ export const projectsData = [
     description:
       "language exchange website that connects language learners worldwide.",
     tags: ["React", "PSQL", "Express", "Node.js", "Ant Design"],
+    url:"https://github.com/levilu800b/DALR-Language-Exchange",
     imageUrl: lang,
   },
   {
-    title: "Ahmed Shop",
+    title: "Ahmed Shop", 
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    url:"https://ahmed-shop.netlify.app/",
     imageUrl: comm,
   },
   {
@@ -80,6 +82,7 @@ export const projectsData = [
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    url:"www.google.com",
     imageUrl: hotel,
   },
 ] as const;
