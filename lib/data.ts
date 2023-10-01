@@ -73,7 +73,7 @@ export const projectsData = [
     title: "Ahmed Shop", 
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "JS", "CSS"],
+    tags: ["React", "JSX", "CSS"],
     url:"https://ahmed-shop.netlify.app/",
     imageUrl: comm,
   },
