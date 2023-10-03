@@ -5,7 +5,6 @@ import { LuGraduationCap } from "react-icons/lu";
 import hotel from "@/public/hotel.png";
 import lang from "@/public/lang.png";
 import comm from "@/public/commercial.png";
-import whether from "@/public/whether.png";
 export const links = [
   {
     name: "Home",
