@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import hotel from "@/public/hotel.png";
+import hotel from "@/public/js.png";
 import lang from "@/public/lang.png";
 import comm from "@/public/commercial.png";
 export const links = [
@@ -34,28 +34,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated from Code Your Future  bootcamp",
+    location: "Manchester,Uk",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After 1 year of commitment and hard-worked I was graduated as Full-Stack Developer from code your future bootcamp.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "April 2022 - April 2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Manchester,Uk",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+"Developed the language exchange web application with the purpose of connecting language learners with native speakers to facilitate language practice and cultural exchange.Collaborated with a team to develop a full-stack web application for a language exchange program using JS, React, Node.js, Express, PostgreSQL, and JWT.Used Git & GitHub in an Agile & Scrum environment to efficiently work together on group projects.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2023-April 2023",
+  },
+  {
+    title: "Junior software Developer",
+    location: "Manchester,Uk",
+    description:
+      "Responsible for developing and delivering front-end and back-end applications to meet the needs of the users and the organization. Collaborated with a team to develop a full-stack web application to build impactful features that support the day-to-day operations of CYF using JS, React, Node.js, Express, PostgreSQL, and Cypress.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "April 2023-Present",
   },
 ] as const;
 
@@ -79,8 +79,8 @@ export const projectsData = [
   {
     title: "Word Analytics",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "We are a professional removal’s company based in Manchester. JS Logistics Nationwide Ltd deliveries was established with one view in mind, ” EXCELLENCE”.",
+    tags: ["HTML", "WLFORM", "Wordpress", "Tailwind", "Framer"],
     url:"www.google.com",
     imageUrl: hotel,
   },
@@ -96,14 +96,14 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Agile",
+  "DOM",
+  "API",
+  "TDD",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "Cypress",
+  "Bootstrap",
+  "wordpress",
   "Framer Motion",
 ] as const;
