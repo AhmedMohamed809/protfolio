@@ -26,10 +26,6 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
 ] as const;
 
 export const experiencesData = [
@@ -77,11 +73,11 @@ export const projectsData = [
     imageUrl: comm,
   },
   {
-    title: "Word Analytics",
+    title: "JS Logistics Nationwide",
     description:
       "We are a professional removal’s company based in Manchester. JS Logistics Nationwide Ltd deliveries was established with one view in mind, ” EXCELLENCE”.",
-    tags: ["HTML", "WLFORM", "Wordpress", "Tailwind", "Framer"],
-    url:"www.google.com",
+    tags: ["HTML", "WLFORM", "Wordpress", "css"],
+    url:"http://jslogisticsnationwide-ltd.co.uk/",
     imageUrl: hotel,
   },
 ] as const;
