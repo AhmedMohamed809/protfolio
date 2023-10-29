@@ -1,4 +1,6 @@
 import About from '@/components/About'
+import Experiences from '@/components/Experiences'
+import Footer from '@/components/Footer'
 import Intro from '@/components/Intro'
 import Projects from '@/components/Projects'
 import SectionDivider from '@/components/SectionDivider'
@@ -13,6 +15,8 @@ export default function Home() {
       <About/>
       <Projects/>
       <Skills/>
+      <Experiences/>
+      <Footer/>
     </main>
   )
 }
