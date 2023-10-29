@@ -76,7 +76,7 @@ export const projectsData = [
     title: "JS Logistics Nationwide",
     description:
       "We are a professional removal’s company based in Manchester. JS Logistics Nationwide Ltd deliveries was established with one view in mind, ” EXCELLENCE”.",
-    tags: ["HTML", "WLFORM", "Wordpress", "css"],
+    tags: ["HTML", "WPFORM", "Wordpress", "css"],
     url:"http://jslogisticsnationwide-ltd.co.uk/",
     imageUrl: hotel,
   },
