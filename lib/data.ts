@@ -65,9 +65,9 @@ export const projectsData = [
     imageUrl: lang,
   },
   {
-    title: "Ahmed Shop", 
+    title: "E-commercial website", 
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "E-commercial website for women   cosmetic  and all foundation products ",
     tags: ["React", "JSX", "CSS"],
     url:"https://ahmed-shop.netlify.app/",
     imageUrl: comm,
