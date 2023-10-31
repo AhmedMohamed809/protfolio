@@ -40,7 +40,7 @@ export default function Project({
             ))}
         </ul>
         </div>
-        <Image src={imageUrl}  alt={title} quality={95} className=' absolute top-8 -right-40 w-[28.25rem] 
+        <Image src={imageUrl}  alt={title} quality={95} className=' absolute hidden sm:block top-8 -right-40 w-[28.25rem] 
          rounded-top-lg shadow-2xl group-even:right-[initial] group-even:-left-40
          group-hover:-translate-x-3
          group-hover:translate-y-3
