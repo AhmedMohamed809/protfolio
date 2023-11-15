@@ -12,7 +12,7 @@ function About() {
     id='about'
     >
      <SectionHeading>About me</SectionHeading>
-     <p className="mb-3">
+     <div className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Computer Science</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
@@ -28,15 +28,15 @@ function About() {
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">part-time position</span> as a junior software
         developer.
-      </p>
+      </div>
 
-      <p>
+      <div>
         <span className="italic">When I'm not coding</span>, I enjoy take some pictures , go to the Gym. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">Clean code book</span>. I'm also
         learning how to play the guitar.
-      </p>
+      </div>
     </motion.section>
   )
 }
