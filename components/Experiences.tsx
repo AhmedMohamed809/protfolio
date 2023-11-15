@@ -37,10 +37,10 @@ function Experiences() {
             }}
           >
             <h3 className="font-semibold capitalize">{item.title}</h3>
-            <p className="font-normal !mt-0">{item.location}</p>
-            <p className="!mt-1 !font-normal text-gray-700 ">
+            <div className="font-normal !mt-0">{item.location}</div>
+            <div className="!mt-1 !font-normal text-gray-700 ">
               {item.description}
-            </p>
+            </div>
           </VerticalTimelineElement>
         </React.Fragment>
       ))}
