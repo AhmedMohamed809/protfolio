@@ -19,7 +19,7 @@ function Intro() {
                     duration:0.2,
                 }}>
 
-                <Image src="https://media.licdn.com/dms/image/C4E03AQEr5LIkejyb-Q/profile-displayphoto-shrink_800_800/0/1655157555401?e=1698883200&v=beta&t=NshqrTf7GAgdcLFr4EcwjoPQshERiesW2B_r-Hk0ZEc"
+                <Image src="https://lh3.googleusercontent.com/a/ACg8ocJZ-kNrQjSyA8_5QQYW-9JmbDs5J8T1H2OR9LANcgqv9A=s288-c-no"
                  alt="my_photo" width="192" height="192" quality="95" priority={true}
                   className='h-24 w-24 rounded-full border-white shadow-xl object-cover border-[0.35rem]' />
                 </motion.div>
