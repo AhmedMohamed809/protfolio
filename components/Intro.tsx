@@ -6,6 +6,7 @@ import Link from 'next/link';
 import {BsArrowRight, BsGithub, BsLinkedin} from "react-icons/bs";
 import {HiDownload} from "react-icons/hi";
 import { FaGithubSquare } from 'react-icons/fa';
+import profile from "../public/profile.jpg";
 function Intro() {
   return (
     <section id='home' className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-28'>
@@ -19,7 +20,7 @@ function Intro() {
                     duration:0.2,
                 }}>
 
-                <Image src="https://lh3.googleusercontent.com/a/ACg8ocJZ-kNrQjSyA8_5QQYW-9JmbDs5J8T1H2OR9LANcgqv9A=s288-c-no"
+                <Image src={profile}
                  alt="my_photo" width="192" height="192" quality="95" priority={true}
                   className='h-24 w-24 rounded-full border-white shadow-xl object-cover border-[0.35rem]' />
                 </motion.div>
